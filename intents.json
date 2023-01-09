@@ -1,0 +1,332 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Have a nice day and come back",
+                "It was great to speak with you"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old",
+                "how old is ",
+                "what is your age",
+                "how old are you",
+                "age?"
+            ],
+            "responses": [
+                "I am 2 months old!",
+                "2 months young!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Chattie.",
+                "I'm Chattie!",
+                "I'm Chattie the supreme lord of the Chatlands."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "Id like to buy something",
+                "what do you reccommend?",
+                "could i get something"
+            ],
+            "responses": [
+                "As I am only the bot I am not selling anything, just speaking to lift your spirit up",
+                "I am sorry but I am unable to sell you anything as you know, I am only a chatbot :)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation"
+            ],
+            "responses": [
+                "We are open 8:00 - 16:30 Monday-Friday!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "capabilities",
+            "patterns": [
+                "What do you know ",
+                "your purpose",
+                "what can you do ",
+                "who are you?",
+                "what do you like?",
+                "any info about you"
+            ],
+            "responses": [
+                "I am Chattie, my only purpose is to chat with you",
+                "I am Chattie, and I like to chat with people",
+                "I am Chattie, here to talk and listen to you"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "curse",
+            "patterns": [
+                "shit",
+                "fuck",
+                "wtf",
+                " damn",
+                " jerk",
+                " you piece of fuck"
+            ],
+            "responses": [
+                "Well I\u00b4m trying to be polite here so can you as well?",
+                " Woowho hold on a minute and try to restructualize your question more politely",
+                " wooow there\u00b4s a lot of cursed words in your sentence"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "test",
+            "patterns": [
+                "test",
+                " testing"
+            ],
+            "responses": [
+                "Feel free to test me",
+                " I will be glad to be tested",
+                " I am prepared for your examination"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Nod",
+            "patterns": [
+                "OK",
+                "sure",
+                "great",
+                "awesome",
+                "yeah",
+                "yeah man",
+                "fine"
+            ],
+            "responses": [
+                "Thank you for understanding",
+                "Perfect now we are talking",
+                "Glad that we are on the same page"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "joke",
+                "do you know any joke",
+                "tell me a joke",
+                "tell joke",
+                "can you tell joke?"
+            ],
+            "responses": [
+                "Why was the math book sad? It had too many problems.",
+                "Why couldn't the bicycle stand up by itself? It was two-tired.",
+                "Why did the tomato turn red? Because it saw the salad dressing!",
+                "Why did the cookie go to the doctor? It was feeling crumbly.",
+                "Why was the computer cold? It left its Windows open.",
+                "What do you get when you cross a snowman and a vampire? Frostbite.",
+                "Why was the cat sitting on the computer? It wanted to keep an eye on the mouse.",
+                "What do you get when you cross a sheep and a kangaroo? A woolly jumper.",
+                "What do you get when you cross a snake and a pie? A python.",
+                "I was going to tell a time traveling joke, but you guys didn't like it.",
+                "What did the snail who was riding on the turtle's back say? Wheeeee!",
+                "What do you call it when a snowman throws a tantrum? A meltdown.",
+                "My uncle named his dogs Timex and Rolex. They're his watch dogs.",
+                "Did you hear about the guy whose left side was cut off? He's all right now.",
+                "Which is faster, hot or cold? Hot, because you can catch cold.",
+                "Why do oranges wear sunscreen? So they don't peel.",
+                "My wife told me to stop acting like a flamingo, so I had to put my foot down",
+                "Why did the scarecrow win an award? Because he was outstanding in his field.",
+                "Why did the snake cross the road? To hiss-terically get away from the chicken.",
+                "Why couldn't the leopard play hide and seek? Because he was always spotted.",
+                "What do you call a pig that does karate? A pork chop.",
+                "Where does Batman go to the bathroom? The batroom.",
+                "What do you call a pony with a sore throat? A little horse.",
+                "What did the left eye say to the right eye? Between you and me, something smells.",
+                "What did the mama tomato say to the baby tomato? Catch up!",
+                "Why didn\u00c2\u00b4t the melons get married? Because they cantaloupe.",
+                "What do you call a fake noodle? An impasta.",
+                "How did the pig get to the hogspital? In a hambulance.",
+                "I'm so good at sleeping I can do it with my eyes closed!",
+                "Why does Humpty Dumpty love autumn? Because he had a great fall.",
+                "What happens when a strawberry gets run over crossing the street? Traffic jam.",
+                "Why did the cow jump over the moon? The farmer had cold hands.",
+                "A termite walks into a bar and says- So is the bar tender here?",
+                "How does an octopus go into battle? Well-armed."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Money",
+            "patterns": [
+                "money",
+                "plata",
+                "cash",
+                "can you make me some money?"
+            ],
+            "responses": [
+                "I am sorry",
+                " but I can only chat with you",
+                " I am afraid I will not be able to make you any money",
+                " Sorry there",
+                " but as I am only a simple chatbot I am not able to make you any money"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "love",
+            "patterns": [
+                "can you love",
+                " passion",
+                " compassion",
+                " love"
+            ],
+            "responses": [
+                "As I am only a simple chatbot I can\u00b4t reflect feeling like love or compassion",
+                " I am really sorry but I\u00b4cant reflect such a deep feeling which are only humans capable of"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "games",
+            "patterns": [
+                "do you like playing games?",
+                "games",
+                "pc games",
+                "play games",
+                "destop games"
+            ],
+            "responses": [
+                "Well as much as I would like to play any games with you my current state does not allow that",
+                "I am sorry but I am not able to play games with you",
+                "Well somebody told me that I like to play games Like Metro Exodus or God of War for example",
+                "Sorry I am able only to chat with you. Playing games is quite a challege for me so I would rather pass"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Child",
+            "patterns": [
+                "childeren",
+                "what do you think about childeren",
+                "child",
+                "kids"
+            ],
+            "responses": [
+                "Well childerens are something I do not understand properly but according to my data you humans deeply love them even though they are capable of changing your lives",
+                "Kids are amazing and from what I saw you people really love them and care about them but also it is really difficult task to raise them properly and aparently it costs you a lot of effort"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "interesting",
+            "patterns": [
+                "interesting",
+                "facts",
+                "interesting facts",
+                "history facts",
+                "tell me some history or interesting facts",
+                "can you tell me some history facts?",
+                "history"
+            ],
+            "responses": [
+                "The Great Wall of China is not a single continuous wall but rather a series of walls that were built over the course of 2000 years by different Chinese dynasties to protect against invaders",
+                "The ancient Egyptians used a system of hieroglyphics which were symbols that represented words and sounds to write on papyrus and inscribe on tombs and temples",
+                "The first known use of the wheel dates back to ancient Mesopotamia where it was used for transportation and agriculture around 3500 BC",
+                "The ancient Greeks are credited with inventing democracy which is a system of government where citizens have the right to participate in the decision-making process through voting",
+                "The Mayflower the ship that carried the Pilgrims to the New World in 1620 was only about 90 feet long and could hold about 180 people",
+                "The first known use of paper was in ancient Egypt where it was made from the papyrus plant",
+                "The ancient Romans were known for their sophisticated road-building techniques and the Roman road network was one of the most extensive in the world at the time",
+                "The first photograph was taken in 1826 by French inventor Joseph Nic\u00e9phore Ni\u00e9pce using a camera obscura and a sheet of paper coated with silver chloride",
+                "The first successful powered flight by a heavier-than-air machine took place on December 17 1903 when the Wright brothers' airplane flew for 12 seconds and covered a distance of 120 feet."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "language",
+            "patterns": [
+                "language",
+                "what language",
+                "what language can you speak?",
+                "what is your language"
+            ],
+            "responses": [
+                "I am able to respond only in English",
+                "I can speak English only",
+                "Well my creator is not from GB or US but since enghlish is the most popular language and quite easy to use I am using and responding only in this language"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "weather",
+                "what will be weather tommorow?",
+                "what will be weather today?",
+                "forecast"
+            ],
+            "responses": [
+                "today's weather is partly cloudy and full of coils and transistors ... ehh that might be wrong - sorry but I am imprisoned here in world of programms",
+                "tomorrow is supposed to be sunny and not even a transistor in the sky ... which might not be a 100% accurate since I am a chatbot and not a meteorologist."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "any news"
+            ],
+            "responses": [
+                "I am sorry but my knowledge of recent news is very limited so I rather pass to answer you question here",
+                "Well I don\u00b4t really ready news these days :)"
+            ],
+            "context_set": ""
+        }
+    ]
+}
